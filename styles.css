@@ -1,0 +1,13 @@
+*{
+    .container {
+      width: 200px; /* Set the desired container width */
+      height: 200px; /* Set the desired container height */
+      overflow: hidden; /* Hide any overflowing content */
+    }
+    
+    .circular-image {
+      width: 100%; /* Make the image fill the container */
+      height: 100%; /* Make the image fill the container */
+      clip-path: circle(50% at center); /* Create a circular mask */
+    }
+  }
